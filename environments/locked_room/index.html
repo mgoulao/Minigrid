@@ -3,14 +3,14 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
-<link rel="index" title="Index" href="../../genindex/" /><link rel="search" title="Search" href="../../search/" /><link rel="next" title="Key Corridor S6 R3" href="../key_corridor_s6_r3/" /><link rel="prev" title="Memory S7" href="../memory_s7/" />
+<link rel="index" title="Index" href="../../genindex/" /><link rel="search" title="Search" href="../../search/" /><link rel="next" title="Memory" href="../memory/" /><link rel="prev" title="Lava Gap" href="../lava_gap/" />
         <link rel="canonical" href="https://minigrid.farama.org/environments/locked_room.html" />
 
     <link rel="shortcut icon" href="../../_static/minigrid-white.png"/><meta name="generator" content="sphinx-5.2.3, furo 2022.09.15.dev1"/>
         <title>Locked Room - MiniGrid Documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?digest=9ec31e2665bf879c1d47d93a8ec4893870ee1e45" />
-    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?digest=67a37f27556a139745d55a547dca47e50878383c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?digest=c2d5e51f39e130612d57e150aebc94239a19910f" />
     
     
 
@@ -41,7 +41,7 @@
     <header class="farama-header">
       <div class="farama-header__container">
         <div class="farama-header__left">
-          <a href="https://farama.org/">
+          <a href="../../">
               <img class="farama-header__logo only-light" src="../../_static/img/minigrid.png" alt="Light Logo"/>
               <img class="farama-header__logo only-dark" src="../../_static/img/minigrid-white.png" alt="Dark Logo"/>
             <h1 class="farama-header__title">MiniGrid Documentation</h1>
@@ -62,8 +62,10 @@
             </div>
             <div class="farama-header-menu__list">
               <div class="farama-header-menu-list__header">
-                <img class="farama-header-menu__logo" src="../../_static/img/farama_solid_white.svg">
-                <span>The Farama Foundation</span>
+                <a href="https://farama.org">
+                  <img class="farama-header-menu__logo" src="../../_static/img/farama_solid_white.svg">
+                  <span>The Farama Foundation</span>
+                </a>
                 <button id="farama-close-menu">
                   <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-close">
@@ -85,17 +87,17 @@
                     <a href="https://github.com/Farama-Foundation/SuperSuit">SuperSuit</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Farama-Foundation/tinyscaler">Tinyscaler</a>
+                    <a href="https://github.com/Farama-Foundation/MiniGrid">MiniGrid</a>
                   </li>
                   <li>
                     <a href="https://github.com/Farama-Foundation/gym-robotics">Gymnasium-Robotics
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com/Farama-Foundation/AutoROM">AutoROM</a>
+                    <a href="https://github.com/Farama-Foundation/tinyscaler">Tinyscaler</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Farama-Foundation/MiniGrid">MiniGrid</a>
+                    <a href="https://github.com/Farama-Foundation/AutoROM">AutoROM</a>
                   </li>
                   <li>
                     <a href="https://github.com/Farama-Foundation/Jumpy">JumPy</a>
@@ -225,38 +227,40 @@
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
   <p class="caption" role="heading"><span class="caption-text">Introduction</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../content/installation/">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../content/basic_usage/">Basic Usage</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../api/wrappers/">Wrappers</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../content/pubs/">List of publications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../content/pubs/">List of Publications</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Environments</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../design/">General Structure</a></li>
-<li class="toctree-l1 current has-children"><a class="reference internal" href="../">Included environments</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../empty/">Empty</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../four_rooms/">Four Rooms</a></li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../">Environments</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../blocked_unlock_pickup/">Blocked Unlock Pickup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../simple_crossing/">Simple Crossing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dist_shift/">Dist Shift</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../door_key/">Door Key</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../multi_room/">Multi Room</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../dynamic/">Dynamic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../empty/">Empty</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../fetch/">Fetch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../four_rooms/">Four Rooms</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../go_to_door/">Go To Door</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../go_to_object/">Go To Object</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../key_corridor/">Key Corridor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lava_gap/">Lava Gap</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Locked Room</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../memory/">Memory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../multi_room/">Multi Room</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../obstructed_maze/">Obstructed Maze</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../obstructed_maze/">Obstructed Maze</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../playground/">Playground</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../put_near/">Put Near</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../red_blue_doors/">Red Blue Doors</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../memory_s7/">Memory S7</a></li>
-<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Locked Room</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../key_corridor_s6_r3/">Key Corridor S6 R3</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../unlock/">Unlock</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../unlock_pickup/">Unlock Pickup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../blocked_unlock_pickup/">Blocked Unlock Pickup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../obstructed_maze/">Obstructed Maze</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../dist_shift2/">Dist Shift2</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../lava_gap_s7/">Lava Gap S7</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../simple_crossing_s11_n5/">Simple Crossing S11 N5</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../dynamic/">Dynamic</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../go_to_object/">Go To Object</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../playground/">Playground</a></li>
 </ul>
 </li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../api/wrappers/">Wrappers</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Development</span></p>
 <ul>
@@ -282,18 +286,7 @@
           <span>Back to top</span>
         </a>
         <div class="content-icon-container">
-          
-  
-  <div class="edit-this-page">
-  <a class="muted-link" href="https://github.com/Farama-Foundation/Gymnasium/edit/master/docs/environments/locked_room.md" title="Edit this page">
-    <svg aria-hidden="true" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-      <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
-      <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
-    </svg>
-    <span class="visually-hidden">Edit this page</span>
-  </a>
-</div><div class="theme-toggle-container theme-toggle-content">
+          <div class="theme-toggle-container theme-toggle-content">
             <button class="theme-toggle">
               <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
               <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
@@ -307,6 +300,7 @@
           </label>
         </div>
         <article role="main">
+          
           <section id="locked-room">
 <h1>Locked Room<a class="headerlink" href="#locked-room" title="Permalink to this heading">#</a></h1>
 <section id="description">
@@ -401,23 +395,23 @@ difficult to solve with vanilla reinforcement learning alone.</p>
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="../key_corridor_s6_r3/">
+          <a class="next-page" href="../memory/">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Key Corridor S6 R3</div>
+                <div class="title">Memory</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="../memory_s7/">
+            <a class="prev-page" href="../lava_gap/">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Memory S7</div>
+                <div class="title">Lava Gap</div>
                 
               </div>
             </a>
@@ -434,7 +428,11 @@ difficult to solve with vanilla reinforcement learning alone.</p>
           </div>
           <div class="right-details">
             <div class="icons">
-              
+              <a class="muted-link" href="https://github.com/Farama-Foundation/Minigrid" aria-label="On GitHub">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+                </svg>
+              </a>
             </div>
           </div>
         </div>
@@ -504,41 +502,5 @@ difficult to solve with vanilla reinforcement learning alone.</p>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/sphinx_highlight.js"></script>
     <script src="../../_static/scripts/furo.js"></script>
-    
-
-<script>
-    (() => {
-        if (!localStorage.getItem("shownCookieAlert")) {
-            const boxElem = document.createElement("div");
-            boxElem.classList.add("cookie_alert");
-            const containerElem = document.createElement("div");
-            containerElem.classList.add("cookie_container");
-            const textElem = document.createElement("p");
-            textElem.innerHTML = `This page uses <a href="https://analytics.google.com/">
-                                Google Analytics</a> to collect statistics. You can disable it by blocking
-                                the JavaScript coming from www.google-analytics.com.`;
-                                containerElem.appendChild(textElem);
-            const closeBtn = document.createElement("button");
-            closeBtn.innerHTML = `<?xml version="1.0" ?><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style></defs><title/><g id="cross"><line class="cls-1" x1="7" x2="25" y1="7" y2="25"/><line class="cls-1" x1="7" x2="25" y1="25" y2="7"/></g></svg>`
-            closeBtn.onclick = () => {
-                localStorage.setItem("shownCookieAlert", "true");
-                boxElem.style.display = "none";
-            }
-            containerElem.appendChild(closeBtn);
-            boxElem.appendChild(containerElem);
-            document.body.appendChild(boxElem);
-        }
-    })()
-
-</script>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JGXSLW7N06"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JGXSLW7N06');
-</script></body>
+    </body>
 </html>
