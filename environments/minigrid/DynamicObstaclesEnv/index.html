@@ -8,11 +8,11 @@
     <meta property="og:type" content="website" />
     <meta property="og:description" content="" />
     <meta property="og:url" content="https://minigrid.farama.org/environments/minigrid/DynamicObstaclesEnv.html" /><meta name="twitter:card" content="summary_large_image"><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
-<link rel="index" title="Index" href="../../../genindex/" /><link rel="search" title="Search" href="../../../search/" /><link rel="next" title="EmptyEnv" href="../EmptyEnv/" /><link rel="prev" title="DoorKeyEnv" href="../DoorKeyEnv/" />
+<link rel="index" title="Index" href="../../../genindex/" /><link rel="search" title="Search" href="../../../search/" /><link rel="next" title="Empty" href="../EmptyEnv/" /><link rel="prev" title="Door Key" href="../DoorKeyEnv/" />
         <link rel="canonical" href="https://minigrid.farama.org/environments/minigrid/DynamicObstaclesEnv.html" />
 
     <link rel="shortcut icon" href="../../../_static/minigrid-white.png"/><meta name="generator" content="sphinx-5.2.3, furo 2022.09.15.dev1"/>
-        <title>DynamicObstaclesEnv - MiniGrid Documentation</title>
+        <title>Dynamic Obstacles - MiniGrid Documentation</title>
       <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo.css?digest=9ec31e2665bf879c1d47d93a8ec4893870ee1e45" />
     <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo-extensions.css?digest=a614025deca43086db03c234d5a3a2047a0241ae" />
@@ -376,71 +376,71 @@
 <p class="caption" role="heading"><span class="caption-text">Environments</span></p>
 <ul class="current">
 <li class="toctree-l1 current has-children"><a class="reference internal" href="../">Minigrid Environments</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../BlockedUnlockPickupEnv/">BlockedUnlockPickupEnv</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../CrossingEnv/">CrossingEnv</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../DistShiftEnv/">DistShiftEnv</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../DoorKeyEnv/">DoorKeyEnv</a></li>
-<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">DynamicObstaclesEnv</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../EmptyEnv/">EmptyEnv</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../FetchEnv/">FetchEnv</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../FourRoomsEnv/">FourRoomsEnv</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../GoToDoorEnv/">GoToDoorEnv</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../GoToObjectEnv/">GoToObjectEnv</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../KeyCorridorEnv/">KeyCorridorEnv</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../LavaGapEnv/">LavaGapEnv</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../LockedRoomEnv/">LockedRoomEnv</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../MemoryEnv/">MemoryEnv</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../MultiRoomEnv/">MultiRoomEnv</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../ObstructedMaze_1Dlhb/">ObstructedMaze_1Dlhb</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../ObstructedMaze_Full/">ObstructedMaze_Full</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../PlaygroundEnv/">PlaygroundEnv</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../PutNearEnv/">PutNearEnv</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../RedBlueDoorEnv/">RedBlueDoorEnv</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../UnlockEnv/">UnlockEnv</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../UnlockPickupEnv/">UnlockPickupEnv</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../BlockedUnlockPickupEnv/">Blocked Unlock Pickup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../CrossingEnv/">Crossing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../DistShiftEnv/">Dist Shift</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../DoorKeyEnv/">Door Key</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Dynamic Obstacles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../EmptyEnv/">Empty</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../FetchEnv/">Fetch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../FourRoomsEnv/">Four Rooms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../GoToDoorEnv/">Go To Door</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../GoToObjectEnv/">Go To Object</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../KeyCorridorEnv/">Key Corridor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../LavaGapEnv/">Lava Gap</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../LockedRoomEnv/">Locked Room</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../MemoryEnv/">Memory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../MultiRoomEnv/">Multi Room</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ObstructedMaze_1Dlhb/">Obstructed Maze Dlhb</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ObstructedMaze_Full/">Obstructed Maze Full</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../PlaygroundEnv/">Playground</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../PutNearEnv/">Put Near</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../RedBlueDoorEnv/">Red Blue Door</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../UnlockEnv/">Unlock</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../UnlockPickupEnv/">Unlock Pickup</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../babyai/">BabyAI Environments</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoToRedBallGrey/">GoToRedBallGrey</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoToRedBall/">GoToRedBall</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoToRedBallNoDists/">GoToRedBallNoDists</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoToObj/">GoToObj</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoToLocal/">GoToLocal</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoTo/">GoTo</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoToImpUnlock/">GoToImpUnlock</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoToSeq/">GoToSeq</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoToRedBlueBall/">GoToRedBlueBall</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoToDoor/">GoToDoor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoToObjDoor/">GoToObjDoor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoToRedBallGrey/">Go To Red Ball Grey</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoToRedBall/">Go To Red Ball</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoToRedBallNoDists/">Go To Red Ball No Dists</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoToObj/">Go To Obj</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoToLocal/">Go To Local</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoTo/">Go To</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoToImpUnlock/">Go To Imp Unlock</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoToSeq/">Go To Seq</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoToRedBlueBall/">Go To Red Blue Ball</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoToDoor/">Go To Door</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/GoToObjDoor/">Go To Obj Door</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../babyai/Open/">Open</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/OpenRedDoor/">OpenRedDoor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/OpenDoor/">OpenDoor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/OpenTwoDoors/">OpenTwoDoors</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/OpenDoorsOrder/">OpenDoorsOrder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/OpenRedDoor/">Open Red Door</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/OpenDoor/">Open Door</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/OpenTwoDoors/">Open Two Doors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/OpenDoorsOrder/">Open Doors Order</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../babyai/Pickup/">Pickup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/UnblockPickup/">UnblockPickup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/PickupLoc/">PickupLoc</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/PickupDist/">PickupDist</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/PickupAbove/">PickupAbove</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/PutNextLocal/">PutNextLocal</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/PutNext/">PutNext</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/UnblockPickup/">Unblock Pickup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/PickupLoc/">Pickup Loc</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/PickupDist/">Pickup Dist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/PickupAbove/">Pickup Above</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/PutNextLocal/">Put Next Local</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/PutNext/">Put Next</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../babyai/Unlock/">Unlock</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/UnlockLocal/">UnlockLocal</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/KeyInBox/">KeyInBox</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/UnlockPickup/">UnlockPickup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/BlockedUnlockPickup/">BlockedUnlockPickup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/UnlockToUnlock/">UnlockToUnlock</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/ActionObjDoor/">ActionObjDoor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/FindObjS5/">FindObjS5</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/KeyCorridor/">KeyCorridor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/OneRoomS8/">OneRoomS8</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/MoveTwoAcross/">MoveTwoAcross</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/UnlockLocal/">Unlock Local</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/KeyInBox/">Key In Box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/UnlockPickup/">Unlock Pickup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/BlockedUnlockPickup/">Blocked Unlock Pickup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/UnlockToUnlock/">Unlock To Unlock</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/ActionObjDoor/">Action Obj Door</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/FindObjS5/">Find Obj</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/KeyCorridor/">Key Corridor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/OneRoomS8/">One Room</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/MoveTwoAcross/">Move Two Across</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../babyai/Synth/">Synth</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/SynthLoc/">SynthLoc</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/SynthSeq/">SynthSeq</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/MiniBossLevel/">MiniBossLevel</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/BossLevel/">BossLevel</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../babyai/BossLevelNoUnlock/">BossLevelNoUnlock</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/SynthLoc/">Synth Loc</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/SynthSeq/">Synth Seq</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/MiniBossLevel/">Mini Boss Level</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/BossLevel/">Boss Level</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../babyai/BossLevelNoUnlock/">Boss Level No Unlock</a></li>
 </ul>
 </li>
 </ul>
@@ -483,14 +483,11 @@
         </div>
         <article role="main">
           
-          <section id="dynamicobstaclesenv">
-<h1>DynamicObstaclesEnv<a class="headerlink" href="#dynamicobstaclesenv" title="Permalink to this heading">#</a></h1>
+          <section id="dynamic-obstacles">
+<h1>Dynamic Obstacles<a class="headerlink" href="#dynamic-obstacles" title="Permalink to this heading">#</a></h1>
 <figure class="align-default">
-<a class="reference internal image-reference" href="../../../_images/DynamicObstaclesEnv.gif"><img alt="DynamicObstaclesEnv" src="../../../_images/DynamicObstaclesEnv.gif" style="width: 200px;" /></a>
+<a class="reference internal image-reference" href="../../../_images/DynamicObstaclesEnv.gif"><img alt="Dynamic Obstacles" src="../../../_images/DynamicObstaclesEnv.gif" style="width: 200px;" /></a>
 </figure>
-<p>
-    <img src="https://raw.githubusercontent.com/Farama-Foundation/Minigrid/master/figures/dynamic_obstacles.gif" alt="dynamic_obstacles" width="200px"/>
-</p>
 <section id="description">
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this heading">#</a></h2>
 <p>This environment is an empty room with moving obstacles.
@@ -594,7 +591,7 @@ subtracted if the agent collides with an obstacle.</p>
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">EmptyEnv</div>
+                <div class="title">Empty</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
@@ -605,7 +602,7 @@ subtracted if the agent collides with an obstacle.</p>
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">DoorKeyEnv</div>
+                <div class="title">Door Key</div>
                 
               </div>
             </a>
@@ -646,7 +643,7 @@ subtracted if the agent collides with an obstacle.</p>
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#">DynamicObstaclesEnv</a><ul>
+<li><a class="reference internal" href="#">Dynamic Obstacles</a><ul>
 <li><a class="reference internal" href="#description">Description</a></li>
 <li><a class="reference internal" href="#mission-space">Mission Space</a></li>
 <li><a class="reference internal" href="#action-space">Action Space</a></li>
